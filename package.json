@@ -1,0 +1,27 @@
+{
+  "name": "ts-gmscript-boilerplate",
+  "version": "0.1.0",
+  "description": "gm script boilerplate build with typescript and webpack",
+  "scripts": {
+    "test": "echo 'Test success!'",
+    "build": "webpack --display-error-details --progress --colors",
+    "start": "webpack --display-error-details --progress --colors --watch",
+    "contributor": "./node_modules/.bin/contributors-stat",
+    "generate": "all-contributors generate",
+    "deploy": "gh-pages -d ./dist"
+  },
+  "author": "Axetroy",
+  "license": "ISC",
+  "devDependencies": {
+    "all-contributors-cli": "^4.0.1",
+    "contributors-stat": "^1.1.1",
+    "gh-pages": "^0.12.0",
+    "moment": "^2.18.1",
+    "ts-loader": "^2.0.3",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3",
+    "webpack-bundle-analyzer": "^2.3.1"
+  },
+  "dependencies": {}
+}
