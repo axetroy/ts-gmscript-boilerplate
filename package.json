@@ -18,7 +18,7 @@
     "contributors-stat": "^1.1.1",
     "gh-pages": "^1.0.0",
     "moment": "^2.18.1",
-    "ts-loader": "^2.0.3",
+    "ts-loader": "^3.0.0",
     "ts-node": "^3.0.2",
     "typescript": "^2.2.2",
     "webpack-bundle-analyzer": "^2.8.2",
