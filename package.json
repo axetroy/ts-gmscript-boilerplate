@@ -19,7 +19,7 @@
     "gh-pages": "^1.0.0",
     "moment": "^2.18.1",
     "ts-loader": "^3.0.0",
-    "ts-node": "^3.0.2",
+    "ts-node": "^4.0.0",
     "typescript": "^2.2.2",
     "webpack-bundle-analyzer": "^2.8.2",
     "webpack": "^3.0.0"
