@@ -1,7 +1,6 @@
 ### ts-gmscript-boilerplate
 [![Build Status](https://travis-ci.org/axetroy/ts-gmscript-boilerplate.svg?branch=master)](https://travis-ci.org/axetroy/ts-gmscript-boilerplate)
 [![npm version](https://badge.fury.io/js/ts-gmscript-boilerplate.svg)](https://badge.fury.io/js/ts-gmscript-boilerplate)
-[![Greenkeeper badge](https://badges.greenkeeper.io/axetroy/ts-gmscript-boilerplate.svg)](https://greenkeeper.io/)
 ![Node](https://img.shields.io/badge/node-%3E=6.0-blue.svg?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
