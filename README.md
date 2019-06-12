@@ -55,13 +55,6 @@ npm install
 npm run start
 ```
 
-### 贡献者
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars1.githubusercontent.com/u/9758711?v=3" width="100px;"/><br /><sub>Axetroy</sub>](http://axetroy.github.io)<br />[💻](https://github.com/axetroyts-gmscript-boilerplate/ts-gmscript-boilerplate/commits?author=axetroy) [🐛](https://github.com/axetroyts-gmscript-boilerplate/ts-gmscript-boilerplate/issues?q=author%3Aaxetroy) 🎨 |
-| :---: |
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 ## 开源许可
 
 The [MIT License](https://github.com/axetroy/ts-gmscript-boilerplate/blob/master/LICENSE)
