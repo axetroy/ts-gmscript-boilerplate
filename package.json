@@ -4,8 +4,8 @@
   "description": "gm script boilerplate build with typescript and webpack",
   "scripts": {
     "test": "echo 'Test success!'",
-    "build": "webpack --display-error-details --progress --colors",
-    "start": "webpack --display-error-details --progress --colors --watch",
+    "build": "webpack --display-error-details --progress --colors --mode production",
+    "start": "webpack --display-error-details --progress --colors --watch --mode development",
     "contributor": "./node_modules/.bin/contributors-stat",
     "generate": "all-contributors generate",
     "deploy": "gh-pages -d ./dist"
