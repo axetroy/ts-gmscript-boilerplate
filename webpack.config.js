@@ -24,20 +24,20 @@ module.exports = {
     modules: ['node_modules'],
     extensions: ['.coffee', '.js', '.ts']
   },
+  optimization: {
+    minimize: false // update this to true or false depending on `development` or `production`
+  },
   module: {
-    loaders: [
-      {test: /\.tsx?$/, loader: 'ts-loader'}
+    rules: [
+      {
+        test: /\.tsx?$/, use: 'ts-loader'
+      }
     ]
   },
   plugins: [
     new webpack.LoaderOptionsPlugin({
       minimize: true,
       debug: false
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {warnings: false},
-      sourceMap: false,
-      test: /\.min\.user\.js$/
     }),
     new webpack.BannerPlugin({
       banner: `// ==UserScript==

@@ -10,7 +10,10 @@
     "generate": "all-contributors generate",
     "deploy": "gh-pages -d ./dist"
   },
-  "keywords": ["typescript", "script"],
+  "keywords": [
+    "typescript",
+    "script"
+  ],
   "author": "Axetroy",
   "license": "ISC",
   "devDependencies": {
@@ -21,8 +24,9 @@
     "ts-loader": "6.2.1",
     "ts-node": "8.6.2",
     "typescript": "3.7.5",
+    "webpack": "4.41.5",
     "webpack-bundle-analyzer": "3.6.0",
-    "webpack": "4.41.5"
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {}
 }
