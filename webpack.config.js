@@ -5,6 +5,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const moment = require('moment');
+const ReplaceInFileWebpackPlugin = require('replace-in-file-webpack-plugin');
 
 const pkg = require('./package.json');
 
@@ -30,6 +31,15 @@ module.exports = {
     ]
   },
   plugins: [
+    // tampermonkey prefers dot notation
+    new ReplaceInFileWebpackPlugin([{
+      dir: 'dist',
+      test: /index(\.min)?\.user\.js/,
+      rules: [{
+        search: /return\smodule\['default']/,
+        replace: 'return module.default'
+      }]
+    }]),
     new webpack.LoaderOptionsPlugin({
       minimize: true,
       debug: false
